@@ -8,15 +8,21 @@ const Projects = ({ selectedProjectId }) => {
     {
       id: 1,
       title: "To-Do App",
-      description: "A simple task management app built with React. Users can add, edit, and delete tasks.",
+      description: "A simple task management app built with Vite-React. Users can add, edit, and delete tasks.",
       liveLink: "https://manage-todos-2xeb.vercel.app/", // Replace with your live app URL
     },
     {
       id: 2,
       title: "Currency-Converter App",
-      description: "A simple currency converter app built with React.User can use it for converting currencies.",
+      description: "A simple currency converter app built with Vite-React .User can use it for converting currencies.",
       liveLink: "https://currencyconverter-orpin.vercel.app/", // Replace with your live app URL
     },
+    {
+      id:3,
+      title:"Food-Recipe App",
+      description:-"A Simple food recipe app built with Vite-React .User can use it for food recipes.",
+      liveLink: "https://food-recipe-sujaygarains-projects.vercel.app/"
+    }
   ];
 
   return (

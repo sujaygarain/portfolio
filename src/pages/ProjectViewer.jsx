@@ -15,6 +15,11 @@ const ProjectViewer = () => {
       title:"Currency-Converter",
       liveLink: "https://currencyconverter-orpin.vercel.app/"
     }
+    {
+      id:3,
+      title:"Food Recipe",
+      liveLink: "https://food-recipe-sujaygarains-projects.vercel.app/"
+    }
   ];
 
   const project = projects.find((proj) => proj.id === parseInt(id));
