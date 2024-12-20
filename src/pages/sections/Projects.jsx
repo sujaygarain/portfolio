@@ -20,8 +20,8 @@ const Projects = ({ selectedProjectId }) => {
     {
       id:3,
       title:"Food-Recipe App",
-      description:-"A Simple food recipe app built with Vite-React .User can use it for food recipes.",
-      liveLink: "https://food-recipe-sujaygarains-projects.vercel.app/"
+      description:"A Simple food recipe app built with Vite-React .User can use it for food recipes.",
+      liveLink: "https://food-recipe-git-main-sujaygarains-projects.vercel.app/"
     }
   ];
 

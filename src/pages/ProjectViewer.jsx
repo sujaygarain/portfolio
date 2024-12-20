@@ -12,13 +12,13 @@ const ProjectViewer = () => {
     },
     {
       id:2,
-      title:"Currency-Converter",
+      title:"Currency-Converter App",
       liveLink: "https://currencyconverter-orpin.vercel.app/"
-    }
+    },
     {
       id:3,
-      title:"Food Recipe",
-      liveLink: "https://food-recipe-sujaygarains-projects.vercel.app/"
+      title:"Food-Recipe App ",
+      liveLink: "https://food-recipe-git-main-sujaygarains-projects.vercel.app/"
     }
   ];
 
