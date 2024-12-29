@@ -20,7 +20,7 @@ const Home = () => {
           My ambition is to utilize my technical expertise to create impactful and user-centric solutions that drive innovation and value.
         </p>
         
-        <div className="flex space-x-6 mb-6 justify-center">
+        <div className="flex space-x-6 mb-4 justify-center">
           <a href="https://www.linkedin.com/in/sujay-garain-16590a223/" target="_blank" rel="noopener noreferrer">
             <img src="linkedin.svg" alt="LinkedIn" className="w-8 h-8 inline-block hover:opacity-80 transition-opacity duration-300" title="LinkedIn" />
           </a>
@@ -33,7 +33,7 @@ const Home = () => {
         </div>
         
         {/* Buttons */}
-        <div className="mt-8 space-x-4">
+        <div className="mt-4 space-x-4">
           <a
             href="/my-cv.pdf"
             download="My_CV.pdf"
