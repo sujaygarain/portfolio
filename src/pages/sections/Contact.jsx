@@ -1,8 +1,10 @@
-import { useRef } from "react";
+
+import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
   const formRef = useRef();
+  const [error, setError] = useState(""); // New state for error message
 
   const validateEmail = (email) => {
     const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
@@ -16,9 +18,11 @@ const Contact = () => {
     const email = form.email.value;
 
     if (!validateEmail(email)) {
-      alert("Please enter a valid email address.");
-      return;
+      setError("Please enter a valid email address."); // Set the error message
+      return; // Prevent form submission if email is invalid
     }
+
+    setError(""); // Clear error if the email is valid
 
     try {
       await emailjs.sendForm(
@@ -58,6 +62,12 @@ const Contact = () => {
             required
           />
         </div>
+
+        {/* Error message display */}
+        {error && (
+          <div className="text-red-500 text-sm mb-4">{error}</div>
+        )}
+
         <div className="mb-6">
           <label htmlFor="message" className="block text-sm font-semibold mb-2">
             Message
@@ -71,6 +81,7 @@ const Contact = () => {
             required
           ></textarea>
         </div>
+
         <button
           type="submit"
           className="w-full bg-accent text-neutral py-3 rounded-md font-semibold"

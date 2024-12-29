@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Header isHome={true} />
-      <section className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white text-center px-6">
+      <section className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white text-center px-6 pt-20">
         <ProfilePicture />
         
         <h2 className="text-3xl font-extrabold mt-6 tracking-wide">Sujay Garain</h2>
