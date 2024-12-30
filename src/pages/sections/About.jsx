@@ -8,7 +8,7 @@ const About = () => {
           <h3 className="text-3xl font-semibold text-orange-400 mb-4">Skills</h3>
           <ul className="list-disc list-inside space-y-4">
             <li className="text-lg">JavaScript, React, Node.js</li>
-            <li className="text-lg">HTML, CSS, Tailwind CSS</li>
+            <li className="text-lg">HTML, CSS, Angular</li>
             <li className="text-lg">MongoDB, SQL, Git</li>
             <li className="text-lg">Express, TypeScript, Next.js</li>
           </ul>
