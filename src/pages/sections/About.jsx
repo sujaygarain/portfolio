@@ -77,14 +77,38 @@ const About = () => {
               />
               <p className="mt-2 text-sm text-white">Git</p>
             </div>
-            <div className="flex flex-col justify-center items-center p-6 bg-gray-700 rounded-lg shadow-md hover:scale-105 transition-all">
+              <div className="flex flex-col justify-center items-center p-6 bg-gray-700 rounded-lg shadow-md hover:scale-105 transition-all">
+              <img
+                src="/icons8-mongodb.svg"
+                alt="MongoDB"
+                className="w-12 h-12"
+              />
+              <p className="mt-2 text-sm text-white">MongoDB</p>
+              </div>
+              <div className="flex flex-col justify-center items-center p-6 bg-gray-700 rounded-lg shadow-md hover:scale-105 transition-all">
+              <img
+                src="/icons8-sql.svg"
+                alt="SQL"
+                className="w-12 h-12"
+              />
+              <p className="mt-2 text-sm text-white">SQL</p>
+              </div>
+              <div className="flex flex-col justify-center items-center p-6 bg-gray-700 rounded-lg shadow-md hover:scale-105 transition-all">
+              <img
+                src="/icons8-next.js (2).svg"
+                alt="Next.js"
+                className="w-12 h-12"
+              />
+              <p className="mt-2 text-sm text-white">Next.js</p>
+              </div>
+              <div className="flex flex-col justify-center items-center p-6 bg-gray-700 rounded-lg shadow-md hover:scale-105 transition-all">
               <img
                 src="/icons8-express-js.svg"
                 alt="Express"
                 className="w-12 h-12"
               />
               <p className="mt-2 text-sm text-white">Express</p>
-            </div>
+              </div>
           </div>
         </div>
 
