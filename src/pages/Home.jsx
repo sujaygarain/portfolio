@@ -27,9 +27,9 @@ const Home = () => {
           <a href="https://github.com/sujaygarain" target="_blank" rel="noopener noreferrer">
             <img src="github-.webp" alt="GitHub" className="w-8 h-8 inline-block hover:opacity-80 transition-opacity duration-300" title="GitHub" />
           </a>
-          <a href="https://www.instagram.com/sluggish3349/" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://www.instagram.com/sluggish3349/" target="_blank" rel="noopener noreferrer">
             <img src="instagram-logo.svg" alt="Instagram" className="w-8 h-8 inline-block hover:opacity-80 transition-opacity duration-300" title="Instagram" />
-          </a>
+          </a> */}
         </div>
         
         {/* Buttons */}
