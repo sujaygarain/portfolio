@@ -9,7 +9,7 @@ const Projects = ({ selectedProjectId }) => {
       id: 1,
       title: "To-Do App",
       description: "A simple task management app built with Vite-React. Users can add, edit, and delete tasks.",
-      liveLink: "https://manage-todos-2xeb.vercel.app/", // Replace with your live app URL
+      liveLink: "https://manage-your-todos-sujaygarains-projects.vercel.app/login", // Replace with your live app URL
     },
     {
       id: 2,
